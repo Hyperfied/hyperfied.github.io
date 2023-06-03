@@ -1,0 +1,39 @@
+html {
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: rgb(255,130,130);
+    background: linear-gradient(135deg, rgba(255,130,130,1) 0%, rgba(255,67,67,1) 89%);  
+    background-repeat: no-repeat;
+}
+
+footer {
+    height: 120px;
+    padding: 20px;
+    background-color: black;
+}
+
+.content {
+    padding: 100px;
+    min-height: calc(100vh - 360px);
+    color: white;
+}
+
+a {
+    color: hsl(0, 100%, 65%)
+}
+
+.fortnite {
+    padding: 20px;
+    background-color: black;
+    border-radius: 30px;
+}
+
