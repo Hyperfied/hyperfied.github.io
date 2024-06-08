@@ -42,8 +42,9 @@ body {
 h1 {
     margin: 0;
 }
+
 .username {
-    width: 100%;
+    width: 100%;    
     font-weight: 200;
     text-align: right;
     text-shadow: 3px 3px 5px #2e0005;
@@ -57,4 +58,19 @@ h1 {
 .second {
     background-color: black;
     padding: 5%;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    row-gap: 20px;
+}
+
+.socialName {
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
 }
