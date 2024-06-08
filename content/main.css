@@ -1,39 +1,83 @@
 html {
-    margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    background-color: #bf002d;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.mainContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* gap:  max(50px, 5%); */
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
 }
 
 h1 {
     margin: 0;
 }
 
-body {
-    height: 100vh;
-    margin: 0;
-    background: rgb(255,130,130);
-    background: linear-gradient(135deg, rgba(255,130,130,1) 0%, rgba(255,67,67,1) 89%);  
-    background-repeat: no-repeat;
+.username {
+    width: 100%;    
+    font-weight: 200;
+    text-align: right;
+    text-shadow: 3px 3px 5px #2e0005;
 }
 
-footer {
-    height: 120px;
-    padding: 20px;
+.pfp {
+    width: 300px;
+    box-shadow: 5px 0px 20px #2e0005, -5px 0px 20px #2e0005, 0px 5px 20px #2e0005, 0px -5px 20px #2e0005;
+}
+
+.second {
     background-color: black;
+    padding: 5%;
 }
 
-.content {
-    padding: 100px;
-    min-height: calc(100vh - 360px);
-    color: white;
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    row-gap: 20px;
+    gap: 30px
+}
+
+.socialName {
+    margin-top: 20px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 a {
-    color: hsl(0, 100%, 65%)
+    text-decoration: none;
+    color: white;
 }
-
-.fortnite {
-    padding: 20px;
-    background-color: black;
-    border-radius: 30px;
-}
-
