@@ -76,6 +76,7 @@ h1 {
 .second {
     background-color: black;
     padding: 5%;
+    border-top: 5px #690015 outset ;
 }
 
 .socials {
