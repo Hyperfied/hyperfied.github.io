@@ -74,15 +74,39 @@ h1 {
 }
 
 .second {
+    background-color: #690015;
+    padding: 5%;
+    box-shadow: inset 0px 5px 5px #bf002d;
+
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+
+.navitem {
+    border: 2px #bf002d solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: max(10px, 1%) max(20px, 2%);
+    font-size: 1.6em;
+    background-color: #bf002d;
+}
+
+.third {
     background-color: black;
     padding: 5%;
-    border-top: 5px #690015 outset ;
 }
 
 .socials {
     display: flex;
     justify-content: space-evenly;
     flex-flow: row wrap;
+    padding-top: 30px;
     row-gap: 20px;
     gap: 30px
 }
@@ -99,3 +123,4 @@ a {
     text-decoration: none;
     color: white;
 }
+
