@@ -8,6 +8,12 @@ body {
     margin: 0;
 }
 
+.hide {
+    display: none !important;
+}
+
+
+
 .main {
     background-color: #bf002d;
     height: 90vh;
@@ -61,6 +67,14 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
 .username {
     width: 100%;    
     font-weight: 200;
@@ -72,6 +86,8 @@ h1 {
     max-width: 300px;
     box-shadow: 5px 0px 20px #2e0005, -5px 0px 20px #2e0005, 0px 5px 20px #2e0005, 0px -5px 20px #2e0005;
 }
+
+
 
 .second {
     background-color: #690015;
@@ -88,21 +104,55 @@ h1 {
     gap: 20px;
 }
 
-
-
 .navitem {
-    border: 2px #bf002d solid;
+    border: 5px #bf002d solid;
     border-radius: 5px;
     text-align: center;
     padding: max(10px, 1%) max(20px, 2%);
     font-size: 1.6em;
     background-color: #bf002d;
     cursor: pointer;
+    transition: 0.2s;
 }
+
+.navitem:hover
+{
+    background-color: #f0003b;
+}
+
 
 .selectedNav {
     background-color: #f0003b;
 }
+
+.contentPage {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: max(20px, 2%);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.linkitem {
+    display: flex;
+    flex-flow: column wrap;
+
+    border: 5px #a40025 solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: max(10px, 1%) max(20px, 2%);
+    font-size: 1.6em;
+    background-color: #a40025;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.linkitem:hover {
+    background-color: #bf002d;
+}
+
+
 
 .third {
     background-color: black;
