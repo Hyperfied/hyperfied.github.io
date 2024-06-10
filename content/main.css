@@ -88,6 +88,8 @@ h1 {
     gap: 20px;
 }
 
+
+
 .navitem {
     border: 2px #bf002d solid;
     border-radius: 5px;
@@ -95,6 +97,11 @@ h1 {
     padding: max(10px, 1%) max(20px, 2%);
     font-size: 1.6em;
     background-color: #bf002d;
+    cursor: pointer;
+}
+
+.selectedNav {
+    background-color: #f0003b;
 }
 
 .third {
